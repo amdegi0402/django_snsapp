@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 #github 個人用アクセストークン（push用) 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
-from django import django_heroku
+import django_heroku
 django_heroku.settings(locals())
 
 from pathlib import Path
