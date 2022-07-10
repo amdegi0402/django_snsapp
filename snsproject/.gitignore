@@ -1,0 +1,6 @@
+# 特定のファイルを無視
+settings.py
+local_settings.py
+
+# 特定のディレクトリを無視
+#/directory_name/
