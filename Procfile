@@ -1,1 +1,1 @@
-web: gunicorn snsApp.snsproject.wsgi
+web: gunicorn snsproject.wsgi
