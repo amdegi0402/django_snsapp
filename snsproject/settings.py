@@ -11,9 +11,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 #github 個人用アクセストークン（push用) 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
-import django_heroku
-django_heroku.settings(locals())
-
 from pathlib import Path
 from decouple import config
 from dj_database_url import parse as dburl
@@ -172,3 +169,6 @@ if not DEBUG:
 
     # HerokuのConfigを読み込み
     django_heroku.settings(locals())
+
+import django_heroku
+django_heroku.settings(locals())
