@@ -1,1 +1,1 @@
-web: gunicorn snsApp.wsgi --log-file -
+web: gunicorn snsApp.snsproject.wsgi
