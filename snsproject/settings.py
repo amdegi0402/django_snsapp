@@ -137,7 +137,7 @@ LOGIN_URL = 'login'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #heroku設定用
-DEBUG = False
+DEBUG = True
 
 try:
     # 存在する場合、ローカルの設定読み込み
